@@ -1,0 +1,7 @@
+{{#if @renderOut }}
+	{{#in-element this.myDestinationElement}}
+		{{yield}}
+	{{/in-element}}
+{{else}}
+	{{yield}}
+{{/if}}

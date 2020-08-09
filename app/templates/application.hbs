@@ -1,5 +1,20 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+
+<div class="container">
+	<div class="row">
+		<div class="col text-center">
+			<RenderIn>
+				<div class="alert alert-dark" role="alert">
+					This content render <b>inside</b> of ember root element
+				</div>
+			</RenderIn>
+			<RenderOut @renderOut=true>
+				<div class="alert alert-info text-center" role="alert">
+					This content render <b>outside</b> of ember root element
+				</div>
+			</RenderOut>
+		</div>
+	</div>
+</div>
+
 
 {{outlet}}
