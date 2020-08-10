@@ -1,7 +1,18 @@
-# emberjs-in-element-demo
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+# Emberjs `{{in-element}}` demo
+
+Ember.js {{in-element}} feature.  
+Ember released a new helper called {{in-element}} in its new version V 3.20.0 which makes it easy for portal rendering.  
+  
+With portal rendering, you could render a component somewhere outside of the usual HTML flow.  
+
+Check the article here: https://dev.to/shayanypn/ember-js-in-element-feature-273l 
+
+![screen record of preview](https://github.com/shayanypn/emberjs-in-element-demo/blob/master/preview.png)
+
+
+
+
 
 ## Prerequisites
 
