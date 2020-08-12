@@ -2,6 +2,7 @@
   "name": "emberjs-in-element-demo",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://shayanypn.github.io/emberjs-in-element-demo",
   "description": "Small description for emberjs-in-element-demo goes here",
   "repository": "",
   "license": "MIT",
@@ -17,7 +18,8 @@
     "lint:js": "eslint .",
     "start": "ember serve",
     "test": "npm-run-all lint:* test:*",
-    "test:ember": "ember test"
+    "test:ember": "ember test",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "devDependencies": {
     "@ember/optional-features": "^1.3.0",
@@ -47,6 +49,7 @@
     "eslint": "^7.5.0",
     "eslint-plugin-ember": "^8.9.1",
     "eslint-plugin-node": "^11.1.0",
+    "gh-pages": "^3.1.0",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "qunit-dom": "^1.2.0"

@@ -8,6 +8,8 @@ With portal rendering, you could render a component somewhere outside of the usu
 
 Check the article here: https://dev.to/shayanypn/ember-js-in-element-feature-273l 
 
+Preview is [here]([https://shayanypn.github.io/emberjs-in-element-demo/](https://shayanypn.github.io/emberjs-in-element-demo/))
+
 ![screen record of preview](https://github.com/shayanypn/emberjs-in-element-demo/blob/master/preview.png)
 
 
@@ -66,3 +68,4 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
